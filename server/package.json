@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server",
+    "decenc": "nodemon dec-enc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praveenscience/JWT-MERN-FullStack.git"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "Praveen Kumar Purushothaman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/praveenscience/JWT-MERN-FullStack/issues"
+  },
+  "homepage": "https://github.com/praveenscience/JWT-MERN-FullStack#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsrsasign": "^8.0.12",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1"
+  }
+}
